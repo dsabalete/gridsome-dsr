@@ -1,18 +1,12 @@
-import DefaultLayout from '~/layouts/Default.vue'
+import DefaultLayout from "~/layouts/Default.vue";
 
-import VueScrollTo from 'vue-scrollto'
-import BootstrapVue from 'bootstrap-vue'
-import './assets/styles/main.scss'
+import VueScrollTo from "vue-scrollto";
+import BootstrapVue from "bootstrap-vue";
+import "./assets/styles/main.scss";
 
-import {
-  library
-} from '@fortawesome/fontawesome-svg-core'
+import { library } from "@fortawesome/fontawesome-svg-core";
 
-import {
-  faTrophy,
-  faRss,
-  faCheck
-} from '@fortawesome/free-solid-svg-icons'
+import { faTrophy, faRss, faCheck } from "@fortawesome/free-solid-svg-icons";
 import {
   faGithub,
   faTwitter,
@@ -21,19 +15,19 @@ import {
   faHtml5,
   faJsSquare,
   faCss3Alt,
+  faVuejs,
   faAngular,
   faReact,
   faNodeJs,
   faSass,
   faLess,
-  faWordpress,
+  faDrupal,
   faGulp,
   faGrunt,
   faNpm,
-} from '@fortawesome/free-brands-svg-icons'
-import {
-  FontAwesomeIcon
-} from '@fortawesome/vue-fontawesome'
+  faYarn
+} from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 library.add(
   faGithub,
@@ -44,34 +38,35 @@ library.add(
   faHtml5,
   faCss3Alt,
   faJsSquare,
+  faVuejs,
   faAngular,
   faReact,
   faNodeJs,
   faSass,
   faLess,
-  faWordpress,
+  faDrupal,
   faGulp,
   faGrunt,
   faNpm,
+  faYarn,
   faRss,
-  faCheck,
-)
+  faCheck
+);
 
-export default function (Vue, {
-  head,
-}) {
-  Vue.use(VueScrollTo)
-  Vue.use(BootstrapVue)
-  Vue.component('Layout', DefaultLayout)
+export default function(Vue, { head }) {
+  Vue.use(VueScrollTo);
+  Vue.use(BootstrapVue);
+  Vue.component("Layout", DefaultLayout);
 
-  Vue.component('font-awesome', FontAwesomeIcon)
+  Vue.component("font-awesome", FontAwesomeIcon);
 
   head.link.push({
-    rel: 'stylesheet',
-    href: 'https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700'
-  })
+    rel: "stylesheet",
+    href:
+      "https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700"
+  });
   head.link.push({
-    rel: 'stylesheet',
-    href: 'https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i'
-  })
+    rel: "stylesheet",
+    href: "https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i"
+  });
 }

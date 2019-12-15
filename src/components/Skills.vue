@@ -6,62 +6,68 @@
       <div class="subheading mb-3">Programming Languages &amp; Tools</div>
       <ul class="list-inline dev-icons">
         <li class="list-inline-item">
-          <font-awesome :icon="['fab', 'html5']"/>
+          <font-awesome :icon="['fab', 'html5']" />
         </li>
         <li class="list-inline-item">
-          <font-awesome :icon="['fab', 'css3-alt']"/>
+          <font-awesome :icon="['fab', 'css3-alt']" />
         </li>
         <li class="list-inline-item">
-          <font-awesome :icon="['fab', 'js-square']"/>
+          <font-awesome :icon="['fab', 'js-square']" />
         </li>
         <li class="list-inline-item">
-          <font-awesome :icon="['fab', 'angular']"/>
+          <font-awesome :icon="['fab', 'vuejs']" />
         </li>
         <li class="list-inline-item">
-          <font-awesome :icon="['fab', 'react']"/>
+          <font-awesome :icon="['fab', 'angular']" />
         </li>
         <li class="list-inline-item">
-          <font-awesome :icon="['fab', 'node-js']"/>
+          <font-awesome :icon="['fab', 'react']" />
         </li>
         <li class="list-inline-item">
-          <font-awesome :icon="['fab', 'sass']"/>
+          <font-awesome :icon="['fab', 'node-js']" />
         </li>
         <li class="list-inline-item">
-          <font-awesome :icon="['fab', 'less']"/>
+          <font-awesome :icon="['fab', 'sass']" />
         </li>
         <li class="list-inline-item">
-          <font-awesome :icon="['fab', 'wordpress']"/>
+          <font-awesome :icon="['fab', 'less']" />
         </li>
         <li class="list-inline-item">
-          <font-awesome :icon="['fab', 'gulp']"/>
+          <font-awesome :icon="['fab', 'drupal']" />
         </li>
         <li class="list-inline-item">
-          <font-awesome :icon="['fab', 'grunt']"/>
+          <font-awesome :icon="['fab', 'gulp']" />
         </li>
         <li class="list-inline-item">
-          <font-awesome :icon="['fab', 'npm']"/>
+          <font-awesome :icon="['fab', 'grunt']" />
+        </li>
+        <li class="list-inline-item">
+          <font-awesome :icon="['fab', 'npm']" />
+        </li>
+        <li class="list-inline-item">
+          <font-awesome :icon="['fab', 'yarn']" />
         </li>
       </ul>
 
       <div class="subheading mb-3">Workflow</div>
       <ul class="fa-ul mb-0">
         <li>
-          <font-awesome class="fa-li" :icon="['fas', 'check']"/>Mobile-First, Responsive Design
+          <font-awesome class="fa-li" :icon="['fas', 'check']" />Mobile-First, Responsive Design
         </li>
         <li>
-          <font-awesome class="fa-li" :icon="['fas', 'check']"/>Cross Browser Testing &amp; Debugging
+          <font-awesome class="fa-li" :icon="['fas', 'check']" />Cross Browser Testing &amp; Debugging
         </li>
         <li>
-          <font-awesome class="fa-li" :icon="['fas', 'check']"/>Cross Functional Teams
+          <font-awesome class="fa-li" :icon="['fas', 'check']" />Cross Functional Teams
         </li>
         <li>
-          <font-awesome class="fa-li" :icon="['fas', 'check']"/>Agile Development &amp; Scrum
+          <font-awesome class="fa-li" :icon="['fas', 'check']" />Agile Development &amp; Scrum
         </li>
         <li>
-          <font-awesome class="fa-li" :icon="['fas', 'check']"/>Cutting edge JavaScript frameworks
+          <font-awesome class="fa-li" :icon="['fas', 'check']" />Cutting edge JavaScript frameworks
         </li>
         <li>
-          <font-awesome class="fa-li" :icon="['fas', 'check']"/>Design principles and UX
+          <font-awesome class="fa-li" :icon="['fas', 'check']" />Design principles and UX
         </li>
       </ul>
     </div>
