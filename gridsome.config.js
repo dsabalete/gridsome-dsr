@@ -4,7 +4,6 @@ module.exports = {
     "A starter project for Gridsome with Bootstrap for you to quickly build a resume.",
   siteUrl: "https://gridsome-starter-resume.loke.dev",
   siteUrl: "https://davidsabaleteltk.github.io",
-  // pathPrefix: "/gridsome-dsr",
   plugins: [
     {
       use: "@gridsome/plugin-google-analytics",
