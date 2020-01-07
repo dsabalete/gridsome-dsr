@@ -3,7 +3,7 @@ module.exports = {
   siteDescription:
     "A starter project for Gridsome with Bootstrap for you to quickly build a resume.",
   siteUrl: "https://davidsabaleteltk.github.io",
-  pathPrefix: "/davidsabaleteLTK.github.io",
+  // pathPrefix: "/davidsabaleteLTK.github.io",
   plugins: [
     {
       use: "@gridsome/plugin-google-analytics",
