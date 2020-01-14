@@ -28,6 +28,9 @@
         <li class="nav-item">
           <a class="nav-link" v-on:click.prevent="$scrollTo('#interests')">Interests</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://blog.davidsabalete.com" target="_blank">Blog</a>
+        </li>
       </ul>
     </div>
   </nav>
