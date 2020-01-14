@@ -28,7 +28,7 @@
         <a href="https://www.facebook.com/dsabalete" target="_blank" rel="noopener noreferrer">
           <font-awesome :icon="['fab', 'facebook']" />
         </a>
-        <a href="https://www.davidsabalete.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://blog.davidsabalete.com" target="_blank" rel="noopener noreferrer">
           <font-awesome :icon="['fas', 'rss']" />
         </a>
       </div>
