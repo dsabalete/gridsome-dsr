@@ -1,9 +1,8 @@
 module.exports = {
-    siteName: 'Gridsome starter resume',
+    siteName: "👋 That's me!",
     siteDescription:
-        'A starter project for Gridsome with Bootstrap for you to quickly build a resume.',
+        'Senior Front End Developer, Vue/Nuxt lover, exercise hobbyist, netflix junkie',
     siteUrl: 'https://dsabalete.github.io',
-    // pathPrefix: "/davidsabaleteLTK.github.io",
     plugins: [
         {
             use: '@gridsome/plugin-google-analytics',
