@@ -2,12 +2,12 @@ module.exports = {
     siteName: "👋 That's me!",
     siteDescription:
         'Senior Front End Developer, Vue/Nuxt lover, exercise hobbyist, netflix junkie',
-    siteUrl: 'https://dsabalete.github.io',
+    siteUrl: 'https://www.davidsabalete.com',
     plugins: [
         {
             use: '@gridsome/plugin-google-analytics',
             options: {
-                id: 'UA-1969234-7'
+                id: 'UA-1969234-5'
             }
         },
         {
