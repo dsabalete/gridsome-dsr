@@ -4,12 +4,12 @@ module.exports = {
         'Senior Front End Developer, Vue/Nuxt lover, exercise hobbyist, netflix junkie',
     siteUrl: 'https://www.davidsabalete.com',
     plugins: [
-        {
-            use: '@gridsome/plugin-google-analytics',
-            options: {
-                id: 'UA-1969234-5'
-            }
-        },
+        //{
+        //     use: '@gridsome/plugin-google-analytics',
+        //     options: {
+        //         id: 'UA-1969234-5'
+        //     }
+        // },
         {
             use: '@gridsome/plugin-sitemap',
             options: {
