@@ -29,8 +29,6 @@ import {
 } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-import VueGtm from 'vue-gtm'
-
 library.add(
     faGithub,
     faTwitter,
@@ -55,20 +53,10 @@ library.add(
     faCheck
 )
 
-export default function(Vue, { head, router, isClient }) {
-    if (isClient) {
-        Vue.use(VueGtm, {
-            vueRouter: router,
-            id: 'UA-1969234-5',
-            enabled: false,
-            debug: false
-        })
-    }
-
+export default function(Vue, { head }) {
     Vue.use(VueScrollTo)
     Vue.use(BootstrapVue)
     Vue.component('Layout', DefaultLayout)
-
     Vue.component('font-awesome', FontAwesomeIcon)
 
     head.link.push({
