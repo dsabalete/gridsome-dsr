@@ -21,7 +21,7 @@
           <p>Frontend development in Backbone, create unit testing with Karma, functional testing with Gerkin (launching an automated process run on Jenkins) and Testing AB of beta versions before going to upstream. A part of that, I also review code of pull request from different teams, including React code and update, modify or debug Java code in the backend part of the flow when it is needed.</p>
         </div>
         <div class="resume-date text-md-right">
-          <span class="text-primary">April 2012 - October 2019</span>
+          <span class="text-primary">April 2018 - October 2019</span>
         </div>
       </div>
 
