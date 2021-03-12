@@ -33,7 +33,7 @@
           <div class="subheading mb-3">CAPITOLE CONSULTING</div>
           <p>Frontend development in Backbone, JQuery and Lodash for client-company of the travel agency sector in Barcelona. (10/2017 - 04/2018)</p>
           <p>Implementation of automatic testing with Test Complete and Jenkins in a client-company of the pharmaceutical sector in Parets del Vallès. (01/2017 - 10/2017)</p>
-          <p>Migration of application to web format, responsive and Single Page Aplication (with AngularJS) for client-company of the banking sector in Sant Cugat del Vallès. (07/2017 - 12/2017)</p>
+          <p>Migration of application to web format, responsive and Single Page Aplication (with AngularJS) for client-company of the banking sector in Sant Cugat del Vallès. (07/2016 - 12/2016)</p>
         </div>
         <div class="resume-date text-md-right">
           <span class="text-primary">July 2016 - April 2018</span>
